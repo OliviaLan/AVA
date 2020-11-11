@@ -755,15 +755,19 @@ export const base: ChartKnowledgeBase = {
   wordcloud: {
     id: 'wordcloud',
     name: 'Wordcloud',
-    alias: [],
-    family: [],
-    def: '',
-    purpose: [],
+    alias: ['Tag Cloud','Wordle'],
+    family: ['Others'],
+    def: 
+    'A wordcloud is a visual representation of text data, typically used to depict keywords or to visualize free form text. Tags are usually single words, and the importance of each word is shown with font size or color.',
+    purpose: ['Comparison'],
     coord: [],
-    category: [],
-    shape: [],
-    dataPres: [],
-    channel: [],
+    category: ['Statistic'],
+    shape: ['Scatter'],
+    dataPres: [
+      { minQty: 1, maxQty: 1, fieldConditions: ['Nominal'] },
+      { minQty: 1, maxQty: 2, fieldConditions: ['Interval'] },
+    ],
+    channel: ['Size','Color'],
     recRate: 'Recommended',
   },
 
