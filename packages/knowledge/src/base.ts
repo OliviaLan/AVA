@@ -754,7 +754,7 @@ export const base: ChartKnowledgeBase = {
 
   wordcloud: {
     id: 'wordcloud',
-    name: '',
+    name: 'Wordcloud',
     alias: [],
     family: [],
     def: '',
